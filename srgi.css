@@ -1,0 +1,37 @@
+/* #one{
+    background-color: red;
+} */
+ /* .one{
+    background-color: red;
+ } */
+
+ /* div{
+    background-color: red;
+ }
+ span{
+    background-color: red;
+ } */
+
+
+
+ /* #parent{
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
+    transition: 3s;
+ } */
+
+ #child{
+    /* background-color:yellow;
+    height: 50%;
+    width: 50%; */
+ }
+/* 
+ div:hover{
+    background-color: yellow;
+    border-radius: 50%;
+ } */
+
+ li{
+    font-size: 2em;
+ }

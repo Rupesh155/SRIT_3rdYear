@@ -1,0 +1,16 @@
+div{
+    background-color: red;
+    height: 40px;
+    width: 300px;
+    /* display: block; */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* display: inline; */
+}
+
+span{
+    background-color: blue;
+    height: 40px;
+    width: 300px;
+    display: inline-block;
+}
