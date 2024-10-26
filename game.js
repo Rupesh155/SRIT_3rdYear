@@ -6,7 +6,7 @@ let cell=50
 let gameOver=false
 
 let direction='right'
-
+let score=0
 let generateR=random()
 let id=   setInterval(()=>{
     draw()
@@ -50,13 +50,16 @@ function draw(){
         pen.fillText('gameOver',100,150)
         return
     }
+    pen.clearRect(0,0,1200,600)
     for(let i of sCell){
-        pen.clearRect(0,0,1200,600)
+     
         pen.fillStyle='red'
         pen.fillRect(i[0],i[1],cell,cell)
     }
     pen.fillStyle='green'
     pen.fillRect(generateR[0],generateR[1],cell,cell)
+    pen.font='50px sans-sarif'
+    pen.fillText(`${score}`,150,100)
 
 
 
@@ -103,6 +106,7 @@ function update(){
       sCell.push([newX,newY])
       if(newX===generateR[0]  && newY===generateR[1]){
         generateR=random()
+        score+=1
       }
       else{
 
