@@ -1,16 +1,17 @@
 div{
     background-color: red;
-    height: 40px;
     width: 300px;
-    /* display: block; */
+    height: 50px;
     /* display: none; */
-    /* visibility: hidden; */
     /* display: inline; */
+    visibility: hidden;
 }
-
 span{
-    background-color: blue;
-    height: 40px;
+    background-color: greenyellow;
+   /* display: none; */
     width: 300px;
-    display: inline-block;
+    height: 50px;
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
 }

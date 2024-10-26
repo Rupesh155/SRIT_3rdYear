@@ -1,0 +1,30 @@
+#parent{
+    border: 2px solid black;
+    height: 400px;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    transition: 3s;
+}
+#parent:hover .one{
+    margin-left: 981px;
+    border-radius: 50%;
+
+}
+#one{
+    background-color: pink;
+    transition-timing-function: linear;
+}
+#two{
+    background-color: aqua;
+    transition-timing-function: ease-in;
+}
+#three{
+    background-color: blue;
+    transition-timing-function: ease-out;
+}
+#four{
+    background-color: red;
+    transition-timing-function: ease-in-out;
+}
